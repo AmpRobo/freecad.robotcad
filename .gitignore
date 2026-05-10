@@ -24,7 +24,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-modules
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -99,3 +98,6 @@ ENV/
 
 # enternal gitmodules md5 backup
 .gitmodules_md5
+
+# omit modules directory, which is used for development and should not be included in the repository
+modules
